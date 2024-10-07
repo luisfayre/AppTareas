@@ -21,3 +21,12 @@ Se utilizan estas configuraciones para el funcionamiento correcto de Jetpack Com
 - Firebase Auth: Implementación para lograr el inicio de sesión y autenticación de usuarios.
 - SharedPreferences: Manejo del almacenamiento local de los tokens de sesión para la persistencia entre sesiones de usuario.
 - Room: Utilizado para el almacenamiento local de tareas.
+
+# Funcionalidades
+- Inicio de sesión
+- Registro de usuario
+
+- Agregar tareas
+- Editar tareas: Nota: Al editarse se recomienda editar solo los textos sin marcar la casilla de marcar completado
+- Eliminar tareas
+- Marcar completado
