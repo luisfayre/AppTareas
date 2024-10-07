@@ -19,12 +19,14 @@
             android:name=".views.home.HomeActivity"
             android:exported="false"
             android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+            android:theme="@style/Theme.AppCompat.Light"  />
         <activity
             android:name=".views.form_task.FormTaskActivity"
             android:exported="false"
-            android:label="@string/title_activity_main2"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"  />
+            android:label="@string/title_activity_main"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:parentActivityName=".views.home.HomeActivity"
+            />
         <activity
             android:name=".views.auth.AuthActivity"
             android:exported="true">

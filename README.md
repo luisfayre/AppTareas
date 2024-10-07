@@ -1,4 +1,5 @@
 # Configuraciones tecnicas
+- ### Gradle plugin version 8.02
 - ### Android Studio Koala
   Android Studio Koala Feature Drop | 2024.1.2
 
@@ -7,6 +8,7 @@
   java 17.0.12 2024-07-16 LTS
 
   Java(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)
+- Gradle plugin version 8.02
 
 
 Se utilizan estas configuraciones para el funcionamiento correcto de Jetpack Compose y librerias mas recientes.

@@ -24,6 +24,9 @@ class FormTaskActivity  : AppCompatActivity() {
         binding = ActivityFormTaskBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        // Configurar la barra de acción para mostrar el botón "Atrás"
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         task = intent.getParcelableExtra("task")
 
         binding.taskCompletedCheckBox.visibility = View.GONE // Ocultar el chekbox
@@ -64,5 +67,10 @@ class FormTaskActivity  : AppCompatActivity() {
             // Finalizamos la actividad y volvemos a la lista de tareas
             finish()
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }
