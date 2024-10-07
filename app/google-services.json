@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "537964498767",
+    "project_id": "luis-apps",
+    "storage_bucket": "luis-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537964498767:android:65d86c9f9136be2633bf3a",
+        "android_client_info": {
+          "package_name": "com.examen.luisalcudia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537964498767-5cff7n39mhha39dgl74qkata3vemr29j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2-3Mxxr86FreojoPxDX1LvIS7fS3gEl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537964498767-5cff7n39mhha39dgl74qkata3vemr29j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "537964498767-c90iopqa6fftdbum5k44b2qnbnhe23aa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterMyCar"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537964498767:android:999537e12d6b73c433bf3a",
+        "android_client_info": {
+          "package_name": "com.luisfayre.my_car"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "537964498767-5cff7n39mhha39dgl74qkata3vemr29j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2-3Mxxr86FreojoPxDX1LvIS7fS3gEl4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "537964498767-5cff7n39mhha39dgl74qkata3vemr29j.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "537964498767-c90iopqa6fftdbum5k44b2qnbnhe23aa.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterMyCar"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
